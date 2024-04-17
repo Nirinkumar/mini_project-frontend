@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projects | Nirin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header_cont">
+      <h1>Mini Front-End Projects</h1>
+    </div>
+    <hr>
+    <p class="para1">To enhance my knowledge of HTML, CSS and JAVASCRIPT I have created the below listed items which all are very useful to a Front-End Developer</p>
+    <div class="projects">
+    <div class="projlist"> 
+    <ul>   
+        <li>Navigation Bar <button onclick="loadWebsite('https://nirinkumar.github.io/navbar/')">View</button></li>
+        <li>Login Page <button onclick="loadWebsite('https://nirinkumar.github.io/login_page/')">View</button></li>
+        <li>Multi-step Progress <button onclick="loadWebsite('https://nirinkumar.github.io/multi_step/')">View</button></li>
+        <li>Ring loader <button onclick="loadWebsite('https://nirinkumar.github.io/ring_loader/')">View</button></li>
+        <li>Downloading Status <button onclick="loadWebsite('https://nirinkumar.github.io/downloading_progress/')">View</button></li>
+        <li>Age calculator <button onclick="loadWebsite('https://nirinkumar.github.io/age-calc/')">View</button></li>
+        <li>Analog Clock <button onclick="loadWebsite('https://nirinkumar.github.io/analog_clock/')">View</button></li>
+        <li>Timer <button onclick="loadWebsite('https://nirinkumar.github.io/study_timerr/')">View</button></li>
+    </ul>
+    </div>
+    <div class="projview">
+      <iframe id="websiteFrame" src="" frameborder="1px"></iframe>
+    </div>
+    </div>
+    <center>
+    <div class="sign">
+        Created & Designed by NirinKumar
+    </div>
+    </center>
+
+    <script>
+        function loadWebsite(url) {
+          document.getElementById('websiteFrame').src = url;
+        }
+      </script>
+</body>
+</html>
